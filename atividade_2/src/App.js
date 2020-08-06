@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Arena1 from './components/questao1/Arena.jsx'
 import Arena4 from './components/questao4/Arena.jsx'
 import World from './components/questao3/World.jsx';
@@ -33,10 +34,11 @@ function App() {
 }
 */
 
+// Questao 4  e 5 
 function App() {
   return (
-    <div className="App">
-      <Arena4 arena='DragonBall'>
+    <div className='App'>
+      <Arena4 arena='DragonBall Z'>
         <Hero4 name='Goku' img={GOKU} />
         <Enemy4 name='Vegeta' img={VEGETA} />
       </Arena4>
