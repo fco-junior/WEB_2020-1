@@ -1,0 +1,34 @@
+{
+  "disciplinas": [
+    {
+      "nome": "web",
+      "curso": "si",
+      "capacidade": "50",
+      "id": 1
+    },
+    {
+      "nome": "csgbd",
+      "curso": "si",
+      "capacidade": "50",
+      "id": 2
+    },
+    {
+      "nome": "es",
+      "curso": "si",
+      "capacidade": "50",
+      "id": 3
+    },
+    {
+      "nome": "compiladores",
+      "curso": "cc",
+      "capacidade": "50",
+      "id": 4
+    },
+    {
+      "nome": "sd",
+      "curso": "ec",
+      "capacidade": "50",
+      "id": 5
+    }
+  ]
+}
