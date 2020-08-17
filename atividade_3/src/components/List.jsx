@@ -23,6 +23,7 @@ export default class List extends Component {
             )
     }
 
+
     montarTabela() {
         if (!this.state.disciplinas) return
         return this.state.disciplinas.map(
@@ -43,6 +44,7 @@ export default class List extends Component {
                             <th>Nome</th>
                             <th>Curso</th>
                             <th>Capacidade</th>
+                            <th colSpan="2" style={{ textAlign: "center" }}>Ação</th>
                         </tr>
                     </thead>
                     <tbody>
