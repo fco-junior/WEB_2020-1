@@ -10,7 +10,7 @@ export default class List extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3001/disciplinas')
+        axios.get('http://localhost:3002/disciplinas/list')
             .then(
                 (res) => {
                     this.setState({ disciplinas: res.data })
